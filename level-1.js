@@ -92,11 +92,11 @@ Example:
 If you pass in the value "giraffes", the function should log: "I don't like giraffes".
 */
 
-function whatIDontLike(dislikes) {
-    console.log("I don't like " + dislikes);
+function whatIDontLike(dislike) {
+    console.log("I don't like " + dislike);
 }
 
-whatIDontLike("grammars. Especially proper punctuatin.");
+whatIDontLike("grammar.");
 
 /*Question 9
 Create a function that accepts two arguments.
@@ -104,9 +104,9 @@ Create a function that accepts two arguments.
 Inside the function, subtract the second argument from the first and console log the result.
 */
 
-function InStoreStock(number1, number2) {
-    var sum = number1 - number2;
-    console.log(sum);
+function InStoreStock(purchased, sold) {
+    var availableInStore = purchased - sold;
+    console.log(availableInStore);
 }
 
 /*Question 10
